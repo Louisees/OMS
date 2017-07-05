@@ -151,3 +151,6 @@ class Upload(models.Model):
     class Meta:
         verbose_name = u'文件上传'
         verbose_name_plural = u'文件上传'
+
+ #   def __str__(self):
+ #       return self.headImg
